@@ -25,14 +25,6 @@ public class PokemonAdapter extends RecyclerView.Adapter<PokemonAdapter.ViewHold
         this.getContext = getContext;
     }
 
-    public ArrayList<Pokemon> getListPokemon() {
-        return listPokemon;
-    }
-
-    public void setListPokemon(ArrayList<Pokemon> listPokemon) {
-        this.listPokemon = listPokemon;
-    }
-
 
     @NonNull
     @Override
